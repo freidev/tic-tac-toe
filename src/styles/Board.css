@@ -1,0 +1,31 @@
+.title {
+  margin: 0;
+}
+
+.board {
+  display: grid;
+  gap: 20px;
+  padding: 0;
+  grid-row: 3;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.board li {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.turn {
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+}
+.turn h4 {
+  margin: 0;
+}
